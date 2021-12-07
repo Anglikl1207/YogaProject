@@ -1,0 +1,13 @@
+<nav>
+  <ul role="list">
+    {% for navItem in collections.navItem %}
+    <li>
+      <a 
+        {% if navItem.url === page.url %}aria-current="page"{% endif %} 
+        href="{{ navItem.url }}">
+          {{ navItem.data.title }}
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</nav>
