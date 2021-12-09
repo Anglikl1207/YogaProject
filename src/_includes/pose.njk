@@ -1,0 +1,59 @@
+---
+layout: base.njk
+---
+
+tags: {% for tag in tags %}
+<a href="/tags/{{tag}}/">{{tag}}</a> &nbsp;|&nbsp;
+{% endfor %}
+<header class="page-header">
+    <h2>Pose: {{title}}</h2>
+    <div class="info">
+        <dl>
+            <dt>Asana:</dt>
+            <dd>{{asana}}</dd>
+            <dt>English Name:</dt>
+            <dd>{{english}}</dd>
+            <dt>Type:</dt>
+            <dd>{{type}}</dd>
+            <dt>First Used:</dt>
+            <dd>{{firstused}}</dd>
+        </dl>
+    </div>
+</header>
+
+{{ content | safe }}
+
+<section class="gallery">
+    {% for img in imageGallery %}
+    <div class="card-image">
+        <figure>
+            <img src="{{img.url}}" alt="{{img.alt}}">
+            <figcaption>{{img.cite | safe}}</figcaption>
+        </figure>
+    </div>
+    {% endfor %}
+</section>
+
+<footer class="posefooter">
+<div class="sources">
+    <h3>Source</h3>
+    <p>Content from this page was copied from Wikipedia <a href="{{wikipedia}}">view article</a>.</p>
+</div>
+
+<h3> Other {{type}} poses</h3>
+
+<ul role="list">
+{% for pose in collections.pose %}
+{% if type == pose.data.type %}
+<li>
+    <a 
+    {% if pose.url === page.url %}aria-current="page"{% endif %} 
+    href="{{ pose.url }}">
+        {{ pose.data.title }}
+    </a>
+</li>
+{% endif %}
+{%- endfor %}
+</ul>
+</footer>
+<hr>
