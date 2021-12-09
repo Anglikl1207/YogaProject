@@ -1,0 +1,13 @@
+<ul role="list">
+{% for pose in collections.pose %}
+{% if type == pose.data.type %}
+<li>
+    <a 
+    {% if pose.url === page.url %}aria-current="page"{% endif %} 
+    href="{{ pose.url }}">
+        {{ pose.data.title }}
+    </a>
+</li>
+{% endif %}
+{%- endfor %}
+</ul>
