@@ -50,3 +50,19 @@ html {
   ================================================ */
   /* Add your CSS for the site here */
 
+  :root{
+    --body-font: 'Yaldevi', sans-serif;
+    
+    /*   headings */
+    --site-title-font: 'Poppins', sans-serif;
+    --site-title-size: 3rem;
+    --site-title-size-lrg: 5rem;
+    --site-title-weight: 900;
+    
+    --heading-font: 'Poppins', sans-serif;
+    --heading-size: 3.275rem;
+    --heading-weight: 200;
+    
+    --subheading-font: 'Poppins', sans-serif;
+    
+  }
