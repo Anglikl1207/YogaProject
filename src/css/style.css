@@ -49,20 +49,45 @@ html {
   ADD YOUR CSS HERE 
   ================================================ */
   /* Add your CSS for the site here */
-
   :root{
-    --body-font: 'Yaldevi', sans-serif;
+    --body-font: 'Playfair Display', sans-serif;
     
-    /*   headings */
-    --site-title-font: 'Poppins', sans-serif;
-    --site-title-size: 3rem;
-    --site-title-size-lrg: 5rem;
-    --site-title-weight: 900;
+
+  --heading-font: 'Playfair Display', sans-serif;
+  --heading-size: 60px;
+  --heading-weight: 700;
+  
+  --subheading-font: 'Playfair Display', sans-serif;
+  --subheading-size: 36px;
+  --subheading-weight: 700;
+}
+
+/* 
+======================
+COLOR
+set up colors here
+====================== */
+:root{
+  /*   base colors */
+    --primary-color: #55778B;
+    --background-color: #ffffff;
+    --secondary-1: #896F90;
+    --secondary-2: #2F4A6B;
+    --secondary-3: #78BFC2;
+    --secondary-4: #222222;
     
-    --heading-font: 'Poppins', sans-serif;
-    --heading-size: 3.275rem;
-    --heading-weight: 200;
     
-    --subheading-font: 'Poppins', sans-serif;
+    /* text colors */
+    --heading: var(--primary-color);
+    --subheading: var(--secondary-2);
     
+    /* link colors */
+    --link: var(--secondary-1);
+    --link-active: var(--secondary-2) ;
+    --link-visited: var(--secondary-3);
+    
+    /* button colors */
+    --button: var(--primary-color);
   }
+  
+  
