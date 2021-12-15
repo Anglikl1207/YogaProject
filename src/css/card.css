@@ -27,6 +27,12 @@ CARD LAYOUT and STYLING
   .card_text{
     padding:.5rem;
   }
+  .card_text h3{
+    font-family: var(--body-font);
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
   .card_image{
       
       position: relative;

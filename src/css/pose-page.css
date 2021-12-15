@@ -1,31 +1,37 @@
-.page-header h2, .main, .tags, .gallery_title, .posefooter{
-    padding: var(--page-padding);
+.pose-description, .tags, .pose-footer, .pose .gallery h2{
+    /* padding: var(--page-padding); */
+    width: 50rem;
+    margin: 0 auto;
 }
 
-.main{
+.pose .page-header h2{
+  margin-bottom: 3rem;
+}
+
+.pose-description{
     max-width: 60rem;
 }
 
-.gallery{
+.pose .gallery{
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
-.gallery .gallery_title{
+.pose .gallery .gallery_title{
     grid-column: 1/-1;
 }
-.gallery_image{
+.pose .gallery_image{
       
     position: relative;
 }
-.gallery_image img{
+.pose .gallery_image img{
     /* remove gap under image */
     display: block;
     /* allow for caption */
     margin-bottom: 1.5rem;
 }
-.gallery_image figcaption{
+.pose .gallery_image figcaption{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -36,6 +42,12 @@
     padding: 0 10px;
     font-size: .8rem;
 }
+
+.pose .info{
+  text-align-last: left;
+}
+
+/* list styling borrowed from: https://codepen.io/KristinB/pen/vpHBs?editors=1100 */
 
 dl {
     padding-left: 10em !important;
