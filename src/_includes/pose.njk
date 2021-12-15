@@ -1,9 +1,9 @@
 ---
 layout: base.njk
 ---
-
+<main class="pose main">
 <header class="page-header">
-    <h2>Pose: {{title}}</h2>
+    <h2 class="page-title">Pose: {{title}}</h2>
     <div class="info def-list-dots">
         <dl>
             <dt>Asana:</dt>
@@ -16,16 +16,17 @@ layout: base.njk
             <dd>{{firstused}}</dd>
         </dl>
     </div>
-</header>
-<div class="tags"><p>
-tags: {% for tag in tags %}
-<a href="/tags/{{tag}}/">{{tag}}</a> &nbsp;|&nbsp;
-{% endfor %}</p>
-</div>
 
-<main class="main">
+    <div class="tags"><p>
+    tags: {% for tag in tags %}
+    <a href="/tags/{{tag}}/">{{tag}}</a> &nbsp;|&nbsp;
+    {% endfor %}</p>
+    </div>
+</header>
+
+<section class="pose-description">
 {{ content | safe }}
-</main>
+</section>
 <section class="gallery">
     <h2 class="gallery_title">Examples</h2>
     {% for img in imageGallery %}
@@ -38,15 +39,15 @@ tags: {% for tag in tags %}
     {% endfor %}
 </section>
 
-<footer class="posefooter">
+<footer class="pose-footer">
 <div class="sources">
     <h3>Source</h3>
     <p>The text content from this page was copied from Wikipedia <a href="{{wikipedia}}">view the article</a>.</p>
     <p>Image sources are cited on the images themselves.</p>
 </div>
 
-<h3> All {{type}} poses</h3>
 
+<h3> All {{type}} poses</h3>
 <ul role="list">
 {% for pose in collections.pose %}
 {% if type == pose.data.type %}
@@ -61,4 +62,5 @@ tags: {% for tag in tags %}
 {%- endfor %}
 </ul>
 </footer>
+</main>
 <hr>
