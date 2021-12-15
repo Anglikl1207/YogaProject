@@ -4,7 +4,10 @@ layout: base.njk
 tags: [navItem]
 ---
 <header class="page-header">
-  <h1 class="page-title">{{title}}</h1>
+  <h2 class="page-title">{{title}}</h2>
+  <div class="page-description">
+    <p>You can view all poses or filter by type of pose.</p>
+  </div>
 </header>
 
 
@@ -24,9 +27,12 @@ tags: [navItem]
   </div>
 </section>
 
+<footer class="page-footer">
+
+</footer>
 
 
-## All Poses
+<!-- ## All Poses
 <ul>
   {%- for p in collections.alphaList %}
   <li>
@@ -35,24 +41,24 @@ tags: [navItem]
   </a>
   </li>
   {%- endfor %}
-</ul>
+</ul> -->
 
 
 
-<section class="standing">
+<!-- <section class="standing">
   <h2>Standing</h2>
   <div class="posecard">
   {%- for pose in collections.standing %}
   {% include "pose-card.njk" %}
   {%- endfor %}
   </div>
-</section>
+</section> -->
 
-<section class="seated">
+<!-- <section class="seated">
   <h2>Seated</h2>
   <div class="posecard">
   {%- for pose in collections.seated %}
   {% include "pose-card.njk" %}
   {%- endfor %}
   </div>
-</section>
+</section> -->
