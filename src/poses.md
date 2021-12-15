@@ -3,8 +3,27 @@ title: Poses
 layout: base.njk
 tags: [navItem]
 ---
+<header class="page-header">
+  <h1 class="page-title">{{title}}</h1>
+</header>
 
-# {{title}}
+
+
+<section class="filterable">
+  <div class="filters">
+    <button class="button active" data-type="all">all</button>
+    <button class="button" data-type="standing">standing</button>
+    <button class="button" data-type="balancing">balancing</button>
+    <button class="button" data-type="seated">seated</button>
+    <button class="button" data-type="reclining">reclining</button>
+  </div>
+  <div class="cards">
+    {%- for pose in collections.alphaList %}
+      {% include "pose-card.njk" %}
+    {%- endfor %}
+  </div>
+</section>
+
 
 
 ## All Poses

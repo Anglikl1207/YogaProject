@@ -8,9 +8,9 @@ type: standing
 firstused: 15th century
 wikipedia: https://en.wikipedia.org/wiki/Virabhadrasana
 image:
-    url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Virabhadrasana_I_-_Warrior_Pose_I.jpg/320px-Virabhadrasana_I_-_Warrior_Pose_I.jpg
-    cite: photo by <a href="https://commons.wikimedia.org/wiki/User:OrenBochman">OrenBachman</a>
-    alt: woman outside in Virabhadrasana I or Warrior Pose I
+    url: /images/pexels-anna-shvets-5067946.jpg
+    cite: <a href="https://www.pexels.com/photo/senior-man-in-orange-shirt-and-black-pants-doing-yoga-5067946/">Photo</a> by <a href="pexels.com/@shvetsa?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Anna Shvets</a> from Pexels
+    alt: Senior Man in Orange Shirt and Black Pants Doing Yoga
 ---
 
 ## Description
