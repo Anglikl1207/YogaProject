@@ -1,8 +1,15 @@
-    <div class="card-image">
-        <figure>
+    <div class="card" data-type="{{pose.data.type}}">
+        <figure class="card_image">
             <a href="{{pose.url}}">
             <img src="{{pose.data.image.url}}" alt="{{pose.data.image.alt}}">
             </a>
             <figcaption>{{pose.data.image.cite | safe}}</figcaption>
         </figure>
+        <div class="card_text">
+        <h3>{{pose.data.english}}</h3>
+        <div class="asana"><b>asana:</b> {{pose.data.asana}}</div>
+        <p>
+          <b>pose type:</b> {{pose.data.type}}
+        </p>
+      </div>
     </div>
