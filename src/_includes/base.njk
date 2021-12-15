@@ -15,7 +15,7 @@ siteName: YourSiteName
   <link rel="stylesheet" href="/css/button.css">
   <link rel="stylesheet" href="/css/pose-page.css">
 </head>
-<body>
+<body class="{{page.fileSlug}}">
   <header class="site-header">
         <!-- add site wide header content here -->
         {% include "nav.njk" %}
@@ -23,9 +23,10 @@ siteName: YourSiteName
 
   {{ content | safe }}
 
-  <footer>
-    <div>
-      <p>&copy; {{ pkg.author }}</p>
+  <footer class="site-footer">
+    <div class="site-footer-content">
+      <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Yoga</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+      <p>Most of the content on this site is taken from other sources with similar or more permissive licences. Links to original content are given next to the content or near the bottom of the page.</p>
       <!-- You can change all of this footer content. -->
     </div>
   </footer>
