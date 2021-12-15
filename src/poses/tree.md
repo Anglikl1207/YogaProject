@@ -3,7 +3,7 @@ title: Tree
 layout: pose.njk
 tags: [pose,balancing]
 asana: Vrikshasana
-english: Tree Pose
+english: Tree
 type: balancing
 firstused: 18th century manual of Hatha Yoga
 wikipedia: https://en.wikipedia.org/wiki/Vriksasana

@@ -3,7 +3,7 @@ title: Warrior I
 layout: pose.njk
 tags: [pose,standing]
 asana: Virabhadrasana I
-english: Warrior Pose or Warrior I
+english: Warrior or Warrior I
 type: standing
 firstused: 15th century
 wikipedia: https://en.wikipedia.org/wiki/Virabhadrasana
