@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,400&family=Playfair+Display:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,400&family=Playfair+Display:wght@400;700&family=Raleway:ital,wght@0,200;0,400;0,700;1,400;1,700&display=swap');
 /* ======================================================
    Responsive Styling and Layout
    =======================================================  */
@@ -51,6 +50,7 @@ html {
   ================================================ */
   :root{
     --page-padding: 0 1rem;
+    --page-width: 50rem;
   }
 
 
@@ -59,12 +59,12 @@ html {
   ================================================ */
   /* Add your CSS for the site here */
   :root{
-    --body-font: 'Lato', sans-serif;
-    
+    --body-font: 'Raleway', sans-serif;
+    --click-font: 'Lato', sans-serif;
 
   --heading-font: 'Playfair Display', sans-serif;
   --heading-size: 60px;
-  --heading-weight: 700;
+  --heading-weight: 400;
   
   --subheading-font: 'Playfair Display', sans-serif;
   --subheading-size: 36px;
@@ -175,5 +175,77 @@ h6 {
   text-transform: uppercase;
 }
 
+/* basic captioned image */
+.image{
+  position: relative;
+}
+.image img{
+  /* remove gap under image */
+  display: block;
+}
+.image figcaption{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0 10px;
+  font-size: .8rem;
+}
+
   
-  
+/* page titles */
+.page-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.page-description{
+  font-family: var(--heading-font);
+  font-style: italic;
+}
+
+.cite{
+  font-family: var(--heading-font);
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* 
+==============================
+Site footer
+============================== */
+.site-footer{
+  background-color: var(--secondary-3);
+  padding: 3rem 0;
+}
+.site-footer-content{
+  width: var(--page-width);
+  margin: 0 auto;
+}
+
+/* 
+==============================
+Individual page styles. 
+base.njk gives Each page on the site has a class on body that is the slug for the page.
+============================== */
+
+/* Limit About and Benefits page width */
+
+.about main, .benefits main{
+  width: var(--page-width);
+  margin: 0 auto;
+}
+
+/* ---------------- Poses Page Styles -------------- */
+/* Adjust filter buttons */
+.poses .filters{
+  padding:.5rem;
+}
+.poses .filters .button:first-child{
+  width: 100%;
+}
+
+@media screen and (min-width: 675px){
+  .poses .filters .button:first-child{
+    width: auto;
+  }
+}
