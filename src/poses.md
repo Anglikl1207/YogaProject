@@ -10,7 +10,7 @@ tags: [navItem]
   </div>
 </header>
 
-
+Poses and information them come from the <a href="https://en.wikipedia.org/wiki/List_of_asanas">List of Asanas</a> Wikipedia page and related pages.
 
 <section class="filterable">
   <div class="filters">
