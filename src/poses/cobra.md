@@ -12,12 +12,12 @@ image:
   cite: <a href="https://pixahive.com/photo/cobra-pose-bhujangasana/">Photo</a> by <a href="https://pixahive.com/portfolio/sukhjinder">Sukhjinder</a>
   alt: man doing yoga in garden
 imageGallery:
-    -   url: 
-        cite: 
-        alt: 
-    -   url: 
-        cite: 
-        alt: 
+    -   url: /images/pexels-marcus-aurelius-6787216 (1).jpg
+        cite: <a href="https://www.pexels.com/photo/woman-doing-cobra-pose-6787216/">Photo</a> by <a href="https://www.pexels.com/@marcus-aurelius">Marcus Aurelius</a> from Pexels
+        alt: A senior woman doing yoga on mat.
+    -   url: /images/pexels-monstera-5384555 (1).jpg
+        cite:  <a href="https://www.pexels.com/photo/relaxed-women-doing-bhujangasana-pose-5384555/">Photo</a> by <a href="https://www.pexels.com/@gabby-k">Monstera</a> from Pexels
+        alt: Two ladies doing cobra yoga pose on mat.
     -   url: 
         cite:
         alt: 
