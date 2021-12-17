@@ -11,6 +11,16 @@ image:
     url: /images/pexels-anna-shvets-5067946.jpg
     cite: <a href="https://www.pexels.com/photo/senior-man-in-orange-shirt-and-black-pants-doing-yoga-5067946/">Photo</a> by <a href="pexels.com/@shvetsa?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Anna Shvets</a> from Pexels
     alt: Senior Man in Orange Shirt and Black Pants Doing Yoga
+    imageGallery:
+    -   url: /images/anubha-walia-oGHTVhNs7ow-unsplash.jpg
+        cite: <a href="https://unsplash.com/photos/oGHTVhNs7ow">Photo</a> by <a href="https://unsplash.com/@anubhawalia">Anubha Walia</a> from Unsplash
+        alt: A lady doing Warrior I yoga pose by the ocean.
+    -   url: /images/charlotte-karlsen-awyTiNB8tKU-unsplash.jpg
+        cite: <a href="https://unsplash.com/photos/awyTiNB8tKU">Photo</a> by <a href="https://unsplash.com/@charlottemsk">Charlotte K</a> from Unsplash
+        alt: A young lady doing warrior I yoga pose outdoors.
+    -   url: 
+        cite:
+        alt: 
 ---
 
 ## Description
