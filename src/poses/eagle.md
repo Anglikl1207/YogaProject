@@ -22,4 +22,5 @@ imageGallery:
         cite:
         alt: 
 ---
+# {{title}}
 Garudasana गरुडासन Garuḍāsana or Eagle Pose is a standing balancing asana in modern yoga as exercise. The name was used in medieval hatha yoga for a different pose. Garudasana is an asymmetric position in which one leg, say the right, is crossed over the left, while the arm on the opposite side, say the left, is crossed over the right, and the palms are pressed together. Like all poses on one leg, it demands, and may help to build, balance and concentration. According to Satyananda Saraswati, the two palms pressed together resemble the eagle's beak. The gaze is directed at a fixed point in front.
