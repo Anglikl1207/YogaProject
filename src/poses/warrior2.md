@@ -11,6 +11,17 @@ image:
     url: /images/pexels-kamaji-ogino-5093597.jpg
     cite: <a href="https://www.pexels.com/photo/young-ethnic-woman-performing-warrior-pose-near-daughter-doing-split-5093597/ by <a href="https://www.pexels.com/@kamaji-ogino">Kamaji Ogino</a> from <a href="https://www.pexels.com/">Pexels</a>
     alt: young woman performing warrior pose in living room with daughter nearby doing splits
+imageGallery:
+    -   url: /images/pexels-orange-tomato-4914689.jpg
+        cite: <a href="https://www.pexels.com/photo/a-woman-doing-a-warrior-pose-on-the-stairs-4914689/">Photo</a> by <a href="https://www.pexels.com/@orange-tomato-2779185">Orange Tomato</a> from Pexels
+        alt: A young lady doing yoga on the stairs.
+    -   url: 
+        cite: 
+        alt: 
+    -   url: 
+        cite:
+        alt: 
+
 ---
 ## Description
 The poses can be entered from a standing position, Tadasana, jumping or stepping the feet wide apart. 
