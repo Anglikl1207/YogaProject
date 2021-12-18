@@ -11,7 +11,7 @@ image:
     url: /images/katee-lue-s9laK07dK2A-unsplash.jpg
     cite: Photo by <a href="https://unsplash.com/@kateelue?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katee Lue</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     alt: woman doing child pose on mat by cement wall
-    imageGallery:
+imageGallery:
     -   url: /images/balu-gaspar-D_uoWU_gUgY-unsplash (2).jpg
         cite: Photo by <a href="https://unsplash.com/@balu_gaspar">Balu Gaspar</a> on <a href="https://unsplash.com/photos/D_uoWU_gUgY">Unsplash</a>
         alt: A man doing child yoga pose in the forest.
