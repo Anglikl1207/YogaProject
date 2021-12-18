@@ -15,12 +15,12 @@ imageGallery:
     -   url: /images/pexels-orange-tomato-4914689.jpg
         cite: <a href="https://www.pexels.com/photo/a-woman-doing-a-warrior-pose-on-the-stairs-4914689/">Photo</a> by <a href="https://www.pexels.com/@orange-tomato-2779185">Orange Tomato</a> from Pexels
         alt: A young lady doing yoga on the stairs.
-    -   url: 
-        cite: 
-        alt: 
-    -   url: 
-        cite:
-        alt: 
+    -   url: /images/pexels-anna-shvets-5067957.jpg
+        cite: <a href="https://www.pexels.com/photo/senior-man-in-orange-shirt-and-black-pants-doing-yoga-5067957/">Photo</a> by <a href="https://www.pexels.com/@shvetsa?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Anna Shvets</a> from Pexels
+        alt: Senior Man in Orange Shirt and Black Pants Doing Yoga
+    -   url: /images/pexels-kamaji-ogino-5093597.jpg
+        cite: Young woman performing Warrior 2 Pose near daughter doing split
+        alt: <a href="">Photo</a> by <a href="https://www.pexels.com/@kamaji-ogino?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Kamaji Ogino</a> from Pexels
 
 ---
 ## Description
