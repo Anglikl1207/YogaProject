@@ -1,0 +1,252 @@
+// Home page styles and layout
+:root{
+    --break-medium-portrait: 600px;
+    --break-medium-landscape: 800px;
+    --break-large: 1200px;
+    --break-xl: 1800px;
+
+}
+.home-header{
+    height:0;
+    position: relative;
+    padding-bottom: 73.7373396%; /*keep aspect ratio of bg image */
+    background-image: url(/images/lutchenca-medeiros-FcSYIRwh4Bw-unsplash.jpg); 
+    padding-bottom: 64.05023548%;
+    background-image: url(/images/home-hero.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.home-info{
+    padding-top: 2rem;
+    margin-left: 1.5rem;
+    width: 40%;
+    color: #fff;
+}
+.home-title{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+.home-header-text{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.home-header .button{
+    padding: 10px;
+    line-height: 1rem;
+    
+}
+.home-header .caption, .home-basic-poses .caption, .home-about .caption{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 10px;
+    font-size: .8rem;
+}
+
+.basic-poses h2, .about h2{
+    font-family: Lato, sans-serif;
+}
+
+@media screen and (min-width: 600px){
+    .home-info{
+        padding-top: 3rem;
+        margin-left: 2rem;
+        width: 45%;
+    }
+    .home-title{
+        font-size: 48px;
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+    .home-header-text{
+        font-weight: 700;
+        font-size: 1.15rem;
+        margin-bottom: 2rem;
+    }
+    .home-header .button{
+        padding: 0 1.75em 0 1.75em;
+        line-height: 3.45em;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .home-header{
+        width: 90%;
+        margin: 3rem auto 0 auto;
+        padding-bottom: 57%;
+    }
+    .home-info{
+        padding-top: 3rem;
+        margin-left: 2rem;
+    }
+    .home-title{
+        font-size: 60px;
+        font-weight: 900;
+        margin-bottom: 2rem;
+        line-height: 1.25em;
+    }
+    .home-header-text{
+        font-weight: 700;
+        font-size: 1.15rem;
+        margin-bottom: 2rem;
+    }
+    .home-header .button{
+        padding: 0 1.75em 0 1.75em;
+        line-height: 3.45em;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .home-info{
+        padding-top: 5rem;
+        margin-left: 3rem;
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    
+}
+
+// ======== BENEFITS ==========
+.benefits{
+    padding: 0 10px;
+}
+.benefits-examples{
+    display: grid;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.benefits div[class*="example-"]{
+    width:50%;
+    margin: 0 auto;
+}
+.benefits div[class*="example-"] img{
+    display: block;
+    max-width: 40%;
+    max-height: 50px;
+    margin: 0 auto 1.5rem auto;
+}
+
+@media screen and (min-width: 600px){
+
+}
+
+@media screen and (min-width: 800px){
+    .benefits{
+        
+    }
+    .benefits h2, .benefits-text{
+        grid-column: 1/-1;
+        text-align: center;
+    }
+    .benefits-text{
+        width: 35rem;
+        margin: 1rem auto 3rem auto;
+        text-align: center;
+        line-height: 1.65;
+    }
+    .benefits-examples{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 60px;
+        width: 80%;
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .benefits-examples{
+        grid-gap:150px;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    
+}
+
+
+// ======== Home Basic Poses ==========
+.home-basic-poses{
+    display: grid;
+    margin-bottom: 3rem;
+    padding: 0 10px;
+}
+.basic-poses-image figure{
+    position: relative;
+}
+.basic-poses-image figure img{
+    display: block;
+}
+
+@media screen and (min-width: 600px){
+
+}
+
+@media screen and (min-width: 800px){
+    .home-basic-poses{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        max-width: 80%;
+        margin: 5rem auto;
+    }
+    .home-basic-poses h2{
+        margin-top: 0;
+        line-height: 1;
+    }
+    .basic-poses-cta{
+        display: flex;
+        justify-content: right;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    
+}
+
+@media screen and (min-width: 1800px){
+    
+}
+
+// ======== Home About ==========
+.home-about{
+    display: grid;
+    margin-bottom: 3rem;
+    padding: 0 10px;
+}
+.about-image figure{
+    position: relative;
+}
+.about-image figure img{
+    display: block;
+}
+
+
+
+@media screen and (min-width: 600px){
+
+}
+
+@media screen and (min-width: 800px){
+    .home-about{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        max-width: 80%;
+        margin: 5rem auto;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    
+}
+
+@media screen and (min-width: 1800px){
+    
+}
