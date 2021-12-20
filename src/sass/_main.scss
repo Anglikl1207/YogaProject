@@ -215,11 +215,47 @@ Site footer
 ============================== */
 .site-footer{
   background-color: var(--secondary-3);
-  padding: 3rem 0;
+  padding: 2rem 10px 3rem 10px;
 }
-.site-footer-content{
-  width: var(--page-width);
-  margin: 0 auto;
+.footer-nav{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.footer-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.footer-nav li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 40px;
+}
+.footer-nav a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer-nav a:hover{
+  color: #896F90;
+}
+@media screen and (min-width: 800px){
+  .site-footer-content{
+    width: var(--page-width);
+    margin: 0 auto;
+  }
+  .footer-nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .footer-nav li{
+    padding-right: 0px;
+    display: block;
+    list-style-type: none;
+  }
 }
 
 /* 
