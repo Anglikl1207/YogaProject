@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "watch:sass": "sass --watch src/sass:public/css",
-    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
     "build:sass": "sass src/sass:public/css",
     "build:eleventy": "npx @11ty/eleventy",
     "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r",
