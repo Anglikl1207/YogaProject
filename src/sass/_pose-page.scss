@@ -17,36 +17,36 @@
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
+.pose{
+  .gallery .gallery_title{
+      grid-column: 1/-1;
+  }
+  .gallery_image{
+      position: relative;
+  
+      img{
+          /* remove gap under image */
+          display: block;
+          /* allow for caption */
+          margin-bottom: 1.5rem;
+      }
+      figcaption{
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 100%;
+          height: 1.5rem;
+          line-height: 1.5rem;
+          background-color: rgba(225, 225, 225, 0.5);
+          padding: 0 10px;
+          font-size: .8rem;
+      }
+  }
 
-.pose .gallery .gallery_title{
-    grid-column: 1/-1;
+  .info{
+    text-align-last: left;
+  }
 }
-.pose .gallery_image{
-      
-    position: relative;
-}
-.pose .gallery_image img{
-    /* remove gap under image */
-    display: block;
-    /* allow for caption */
-    margin-bottom: 1.5rem;
-}
-.pose .gallery_image figcaption{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 1.5rem;
-    line-height: 1.5rem;
-    background-color: rgba(225, 225, 225, 0.5);
-    padding: 0 10px;
-    font-size: .8rem;
-}
-
-.pose .info{
-  text-align-last: left;
-}
-
 /* list styling borrowed from: https://codepen.io/KristinB/pen/vpHBs?editors=1100 */
 
 dl {
