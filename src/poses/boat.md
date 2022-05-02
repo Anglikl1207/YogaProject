@@ -11,7 +11,7 @@ eleventyNavigation:
     parent: seated
 wikipedia: https://en.wikipedia.org/wiki/Navasana
 image: 
-  url: /images/mor-shani-ALz-zUkjmY4-unsplash.jpg
+  url: /small/images/mor-shani-ALz-zUkjmY4-unsplash.jpg
   cite: <a href="https://unsplash.com/photos/ALz-zUkjmY4">photo<a> by <a href="https://unsplash.com/@morsha">Mor Shani.</a> from Unsplash
   alt: Lady doing boat yoga pose by some rocks.
 imageGallery:
