@@ -8,7 +8,7 @@ type: standing
 firstused: 20th century
 wikipedia: https://en.wikipedia.org/wiki/Tadasana
 image: 
-  url: /images/Tadasana_-_Yoga_Art_and_Science.jpg
+  url: /images/small/Tadasana_-_Yoga_Art_and_Science.jpg
   cite: <a href="https://en.wikipedia.org/wiki/Tadasana#/media/File:Tadasana_-_Yoga_Art_and_Science.jpg">Photo</a> by Witold Fitz-Simon  
   alt: A man doing mountain pose.
 imageGallery:

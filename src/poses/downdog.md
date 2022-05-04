@@ -8,7 +8,7 @@ type: standing
 firstused: 18th then revised in 20th century
 wikipedia: https://en.wikipedia.org/wiki/Adho_Mukha_Shvanasana
 image: 
-  url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Downward-Facing-Dog.JPG/1024px-Downward-Facing-Dog.JPG
+  url: /images/small/downdog.jpg
   cite: <a href="https://en.wikipedia.org/wiki/Downward_Dog_Pose#/media/File:Downward-Facing-Dog.JPG">photo<a> by <a href="https://commons.wikimedia.org/w/index.php?title=User:Iveto&action=edit&redlink=1">Iveto</a>
   alt: woman on yoga mat doing downard dog pose
 imageGallery:

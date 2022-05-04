@@ -8,7 +8,7 @@ type: balancing
 firstused: 19th century
 wikipedia: https://en.wikipedia.org/wiki/Garudasana
 image: 
-  url: /images/eagle-pose-garudasana.jpg
+  url: /images/small/eagle-pose-garudasana.jpg
   cite:  <a href="https://www.freepik.com/free-photo/eagle-pose-garudasana_1280313.htm?query=Garudasana[yoga%20pose">photo<a> by <a href="https://www.freepik.com/yanalya">Yanalya</a> from freepik
   alt: Young lady doing eagle pose
 imageGallery:
