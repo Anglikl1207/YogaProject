@@ -8,7 +8,7 @@ type: standing
 firstused: 15th century
 wikipedia: https://en.wikipedia.org/wiki/Virabhadrasana_II
 image:
-    url: /images/pexels-kamaji-ogino-5093597.jpg
+    url: /images/small/warrior2.jpg
     cite: <a href="https://www.pexels.com/photo/young-ethnic-woman-performing-warrior-pose-near-daughter-doing-split-5093597/ by <a href="https://www.pexels.com/@kamaji-ogino">Kamaji Ogino</a> from <a href="https://www.pexels.com/">Pexels</a>
     alt: young woman performing warrior pose in living room with daughter nearby doing splits
 imageGallery:

@@ -8,11 +8,11 @@ type: balancing
 firstused: 20th century
 wikipedia: https://en.wikipedia.org/wiki/Utthita_Vasisthasana
 image: 
-  url: /images/sideplank.jpg
+  url: /images/small/sideplank.jpg
   cite: <a href="https://www.freepik.com/free-photo/flexible-young-woman-warming-yoga-map-living-room-standing-side-plank-looking-online-aerobic-video-laptop-computer_15854019.htm#page=1&query=side%20plank%20pose&position=4&from_view=search">photo<a> by <a href="https://www.freepik.com/dcstudio">DCstudio</a> from freepik
   alt: lady on mat doing Side Plank inside her house.
 imageGallery:
-    -   url: /images/Yoga_PLank.jpg
+    -   url: /small/images/Yoga_PLank.jpg
         cite: <a href="https://en.wikipedia.org/wiki/Utthita_Vasisthasana#/media/File:Yoga_PLank.jpg">photo<a> by <a href="https://commons.wikimedia.org/wiki/User:OrenBochman">OrenBochman.</a> from flickr
         alt: lady doing side plank pose with a white background
     -   url: /images/twoppl_sideplank.png
