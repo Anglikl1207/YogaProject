@@ -21,6 +21,8 @@ sources:
   </figure>
 </header>
 
+<div class="page-content">
+
 In the Western world, people practice Yoga for two main health benefits:
 
 1. physical health
@@ -45,6 +47,7 @@ Yoga as exercise, of the type seen in the West, has been greatly influenced by S
 
 In Western culture, Haṭha yoga is typically understood as asanas and it can be practiced as such. In the Indian and Tibetan traditions, Haṭha yoga is much more. It extends well beyond being a sophisticated physical exercise system and integrates ideas of ethics, diet, cleansing, pranayama (breathing exercises), meditation and a system for spiritual development of the yogi.
 
+</div>
 
 
 <footer class="pose-footer">

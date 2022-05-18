@@ -49,27 +49,10 @@ html {
   Overall Vars
   ================================================ */
   :root{
+    --page-padding-m: 0 10px;
     --page-padding: 0 1rem;
     --page-width: 50rem;
   }
-
-
-  /* ================= ===========================
-  ADD YOUR CSS HERE 
-  ================================================ */
-  /* Add your CSS for the site here */
-  :root{
-    --body-font: 'Raleway', sans-serif;
-    --click-font: 'Lato', sans-serif;
-
-  --heading-font: 'Playfair Display', sans-serif;
-  --heading-size: 60px;
-  --heading-weight: 400;
-  
-  --subheading-font: 'Playfair Display', sans-serif;
-  --subheading-size: 36px;
-  --subheading-weight: 700;
-}
 
 /* 
 ======================
@@ -99,6 +82,21 @@ set up colors here
     --button: var(--primary-color);
   }
 
+    /* ================= ===========================
+  TYPOGRAPHY VARS
+  ================================================ */
+  :root{
+    --body-font: 'Raleway', sans-serif;
+    --click-font: 'Lato', sans-serif;
+
+  --heading-font: 'Playfair Display', sans-serif;
+  --heading-size: 60px;
+  --heading-weight: 400;
+  
+  --subheading-font: 'Playfair Display', sans-serif;
+  --subheading-size: 36px;
+  --subheading-weight: 700;
+}
 
  
 /* 
