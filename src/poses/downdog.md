@@ -23,11 +23,11 @@ imageGallery:
         alt: Woman in a White Long Sleeve Shirt Doing a Yoga Pose
 ---
 
-Downward Dog Pose or Downward-facing Dog Pose, also called Adho Mukha Shvanasana (Sanskrit: अधोमुखश्वानासन; IAST: Adho Mukha Śvānāsana),[1][2][3] is an inversion asana, often practised as part of a flowing sequence of poses, especially Surya Namaskar, the Salute to the Sun.[4] The asana is commonly used in modern yoga as exercise. The asana does not have formally named variations, but several playful variants are used to assist beginning practitioners to become comfortable in the pose.
+Downward Dog Pose or Downward-facing Dog Pose, also called Adho Mukha Shvanasana (Sanskrit: अधोमुखश्वानासन; IAST: Adho Mukha Śvānāsana), is an inversion asana, often practised as part of a flowing sequence of poses, especially Surya Namaskar, the Salute to the Sun. The asana is commonly used in modern yoga as exercise. The asana does not have formally named variations, but several playful variants are used to assist beginning practitioners to become comfortable in the pose.
 
-Downward Dog stretches the hamstring and calf muscles in the backs of the legs, and builds strength in the shoulders. Some popular sites have advised against it during pregnancy, but an experimental study of pregnant women found it beneficial.[5]
+Downward Dog stretches the hamstring and calf muscles in the backs of the legs, and builds strength in the shoulders. Some popular sites have advised against it during pregnancy, but an experimental study of pregnant women found it beneficial.
 
-Downward Dog has been called "deservedly one of yoga's most widely recognized yoga poses"[6] and the "quintessential yoga pose".[7] As such it is often the asana of choice when yoga is depicted in film, literature, and advertising. The pose has frequently appeared in Western culture, including in the titles of novels, a painting, and a television series, and it is implied in the commercial name, "YOGΛ", of a foldable computer.[8]
+Downward Dog has been called "deservedly one of yoga's most widely recognized yoga poses" and the "quintessential yoga pose". As such it is often the asana of choice when yoga is depicted in film, literature, and advertising. The pose has frequently appeared in Western culture, including in the titles of novels, a painting, and a television series, and it is implied in the commercial name, "YOGΛ", of a foldable computer.
 
 
   
