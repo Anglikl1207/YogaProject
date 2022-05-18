@@ -1,6 +1,6 @@
 .pose-description, .tags, .pose-footer, .pose .gallery h2{
     padding: var(--page-padding); 
-    // width: var(--page-width);
+    max-width: var(--page-width);
     margin: 0 auto;
 }
 
@@ -69,7 +69,7 @@
 
 dl {
     padding-left: 10em !important;
-    max-width: 50rem;
+    max-width: var(--page-width);
     margin: 0 auto;
     padding: 0.5em;
   }
