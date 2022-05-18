@@ -10,3 +10,6 @@ public
 
 # macOS related files
 .DS_Store
+
+# gitpod config file
+.gitpod.yml
