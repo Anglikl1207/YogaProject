@@ -29,7 +29,7 @@ In the Western world, people practice Yoga for two main health benefits:
 Some examples of potential physical health benefits include: neck and low back pain, flexibility, strength and balance. It may also help mental health by reducing depression, improving mental outlook and lowering stress.
 
 ### Yoga as Exercise
-<p class="cite">text excerpted from <a href="#yoga-as-exercise">Yoga as Exercise</a> Wikipedia article.</p>
+<p class="cite">text excerpted from <a href="https://en.wikipedia.org/wiki/Yoga_as_exercise">Yoga as Exercise</a> Wikipedia article.</p>
 
 The impact of yoga as exercise on physical and mental health has been a topic of systematic studies (evaluating primary research), although a 2014 report found that, despite its common practice and possible health benefits, it remained "extremely understudied".[165] A systematic review of six studies found that Iyengar yoga is effective at least in the short term for both neck pain and low back pain.[166] A review of six studies found benefits for depression, but noted that the studies' methods imposed limitations,[167] while a clinical practice guideline from the American Cancer Society stated that yoga may reduce anxiety and stress in people with cancer.[168] A 2015 systematic review called for more rigour in clinical trials of the effect of yoga on mood and measures of stress.[169]
 
@@ -38,7 +38,7 @@ The practice of asanas has been claimed to improve flexibility, strength, and ba
 A 2015 systematic review noted that yoga may be effective in alleviating symptoms of prenatal depression.[175] There is evidence that practice of asanas improves birth outcomes[170] and physical health and quality of life measures in the elderly,[170] and reduces hypertension.[176][177]
 
 ### Hatha Yoga
-<p class="cite">Text excerpted from <a href="#hatha-yoga">Hatha Yoga</a> Wikipedia article.</p>
+<p class="cite">Text excerpted from <a href="https://en.wikipedia.org/wiki/Hatha_yog">Hatha Yoga</a> Wikipedia article.</p>
 Haṭha yoga is a branch of yoga. The Sanskrit word हठ haṭha literally means "force" and thus alludes to a system of physical techniques.[2][3] Haṭha yoga represented a trend towards the democratization of yoga insights and religion similar to the Bhakti movement. It eliminated the need for "either ascetic renunciation or priestly intermediaries, ritual paraphernalia and sectarian initiations".[26] This led to its broad historic popularity in India. Later in the 20th-century, states Mallinson, this disconnect of Haṭha yoga from religious aspects and the democratic access of Haṭha yoga enabled it to spread worldwide.[28]
 
 Yoga as exercise, of the type seen in the West, has been greatly influenced by Swami Kuvalayananda and his student Tirumalai Krishnamacharya, who taught from 1924 until his death in 1989. Both Kuvalayananda and Krishnamacharya combined asanas from Haṭha yoga with gymnastic exercises from the physical culture of the time, dropping most of its religious aspects, to develop a flowing style of physical yoga that placed little or no emphasis on Haṭha yoga's spiritual goals.
