@@ -267,7 +267,7 @@ base.njk gives Each page on the site has a class on body that is the slug for th
 /* Limit About and Benefits page width */
 
 .about main, .benefits main{
-  width: var(--page-width);
+  max-width: var(--page-width);
   margin: 0 auto;
 }
 
