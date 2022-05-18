@@ -14,13 +14,8 @@ tags: [navItem]
   </figure>
 </header>
 
-
+<div class="page-content">
  
-
-
-
-
-
 ### About this Site
 This site was crated to help people become more familiar with Yoga, common Yoga poses and the ways in which Yoga can be used as excercise for health benefits.
 
@@ -68,6 +63,8 @@ In 2008, the United States Department of Health and Human Services labelled Sept
 The aims and practice of traditional and current yoga differ dramatically.
 
 The anthropologist Sarah Strauss contrasts the goal of classical yoga, the isolation of the self or kaivalya, with the modern goals of good health, reduced stress, and physical flexibility. Sjoman notes that many of the asanas in Iyengar's Light on Yoga can be traced to his teacher, Krishnamacharya, "but not beyond him". Singleton states that yoga used as exercise is not "the outcome of a direct and unbroken lineage of haṭha yoga", but it would be "going too far to say that modern postural yoga has no relationship to asana practice within the Indian tradition." The contemporary yoga practice is the result of "radical innovation and experimentation" of its Indian heritage. Jain writes that equating yoga as exercise with hatha yoga "does not account for the historical sources": asanas "only became prominent in modern yoga in the early twentieth century as a result of the dialogical exchanges between Indian reformers and nationalists and Americans and Europeans interested in health and fitness". In short, Jain writes, "modern yoga systems ... bear little resemblance to the yoga systems that preceded them. This is because [both] ... are specific to their own social contexts." The historian Jared Farmer writes that twelve trends have characterised yoga's progression from the 1890s onwards: from peripheral to central in society; from India to global; from male to "predominantly" female; from spiritual to "mostly" secular; from sectarian to universal; from mendicant to consumerist; from meditational to postural; from being understood intellectually to experientially; from embodying esoteric knowledge to being accessible to all; from being taught orally to hands-on instruction; from presenting poses in text to using photographs; and from being "contorted social pariahs" to "lithe social winners". The trend away from authority is continued in post-lineage yoga, which is practised outside any major school or guru's lineage.
+
+</div>
 
 <footer class="pose-footer">
 <div class="sources">

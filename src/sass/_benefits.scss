@@ -1,0 +1,65 @@
+// ======== BENEFITS ==========
+.benefits{
+    // padding: 0 10px;
+
+    .page-content{
+        padding: var(--page-padding-m);
+    }
+
+    // .benefits-examples{
+    //     display: grid;
+    //     grid-gap: 20px;
+    //     text-align: center;
+    // }
+
+    div[class*="example-"]{
+        width:50%;
+        margin: 0 auto;
+    }
+    div[class*="example-"] img{
+        display: block;
+        max-width: 40%;
+        max-height: 50px;
+        margin: 0 auto 1.5rem auto;
+    }
+}
+@media screen and (min-width: 600px){
+
+}
+
+@media screen and (min-width: 800px){
+    .benefits{
+        .page-content{
+            padding: 0;
+        }
+    }
+    .benefits h2, .benefits-text{
+        grid-column: 1/-1;
+        text-align: center;
+    }
+    .benefits-text{
+        width: 35rem;
+        margin: 1rem auto 3rem auto;
+        text-align: center;
+        line-height: 1.65;
+    }
+    // .benefits-examples{
+    //     display: grid;
+    //     grid-template-columns: 1fr 1fr 1fr;
+    //     grid-gap: 60px;
+    //     width: 80%;
+    //     margin: 2rem auto;
+    //     text-align: center;
+    // }
+
+}
+
+// @media screen and (min-width: 1200px){
+//     .benefits-examples{
+//         grid-gap:150px;
+//     }
+// }
+
+// @media screen and (min-width: 1800px){
+    
+// }
