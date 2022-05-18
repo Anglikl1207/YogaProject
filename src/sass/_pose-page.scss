@@ -1,7 +1,13 @@
 .pose-description, .tags, .pose-footer, .pose .gallery h2{
-    /* padding: var(--page-padding); */
-    width: 50rem;
+    padding: var(--page-padding); 
+    // width: var(--page-width);
     margin: 0 auto;
+}
+
+@media screen and (min-width: 800px){
+  .pose-description, .tags, .pose-footer, .pose .gallery h2{
+    padding: 0;
+  } 
 }
 
 .pose .page-header h2{
@@ -9,13 +15,23 @@
 }
 
 .pose-description{
-    max-width: 60rem;
+    max-width: var(--page-width);
 }
 
 .pose .gallery{
     display: grid;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:640px){
+  .pose .gallery{
     grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width:1032px){
+  .pose .gallery{
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
 }
 
 .pose .gallery .gallery_title{
@@ -45,12 +61,17 @@
 
 .pose .info{
   text-align-last: left;
+  background: var(--secondary-3);
 }
+
 
 /* list styling borrowed from: https://codepen.io/KristinB/pen/vpHBs?editors=1100 */
 
 dl {
     padding-left: 10em !important;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0.5em;
   }
   dl:after {
     content: "";
@@ -70,6 +91,7 @@ dl {
     font-weight: 700;
     width: 9em;
     margin-left: -10em;
+    padding-left: 0.5em;
     clear: left;
   }
   dt:after {
@@ -79,13 +101,4 @@ dl {
   dd {
     margin-left: 0;
     clear: right;
-  }
-  
-  dl {
-    background: var(--secondary-3);
-    padding: 0.5em;
-  }
-  
-  dt {
-    padding-left: 0.5em;
   }
