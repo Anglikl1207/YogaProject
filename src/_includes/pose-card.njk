@@ -6,10 +6,12 @@
             <figcaption>{{pose.data.image.cite | safe}}</figcaption>
         </figure>
         <div class="card_text">
-        <h3>{{pose.data.english}}</h3>
-        <div class="asana"><b>asana:</b> {{pose.data.asana}}</div>
+        <h3><a href="{{pose.url}}">{{pose.data.english}}</a></h3>
+        <div class="asana">
+          <p><b>asana:</b> {{pose.data.asana}}</p>
         <p>
           <b>pose type:</b> {{pose.data.type}}
         </p>
+        </div>
       </div>
     </div>
