@@ -20,7 +20,7 @@ imageGallery:
         cite: <a href="https://en.wikipedia.org/wiki/Shavasana#/media/File:Shavasana.jpg">Photo</a> by <a href="https://commons.wikimedia.org/wiki/User:Joseph.R">Joseph RENGER</a> on Wikipedia.
 ---
 
-This is one of the few poses often referred to by the Asana name: Shavasana. Shavasana (Sanskrit: शवासन; IAST: śavāsana), Corpse Pose, or Mrtasana,[1] is an asana in hatha yoga and modern yoga as exercise, often used for relaxation at the end of a session. It is the usual pose for the practice of yoga nidra meditation.
+This is one of the few poses often referred to by the Asana name: Shavasana. Shavasana (Sanskrit: शवासन; IAST: śavāsana), Corpse Pose, or Mrtasana, is an asana in hatha yoga and modern yoga as exercise, often used for relaxation at the end of a session. It is the usual pose for the practice of yoga nidra meditation.
 
 
 
